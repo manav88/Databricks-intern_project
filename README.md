@@ -1,21 +1,37 @@
-# Databricks
-This project is a comprehensive demonstration of an end-to-end data analytics pipeline built on Databricks. It was executed in the context of a simulated client project during my internship, designed solely for educational and portfolio purposes. The pipeline covers data ingestion, processing, transformation, modeling, and visualization using tools within the Databricks environment (including PySpark, Delta Lake, SQL, MLflow, and Power BI integration).
+# Databricks End-to-End Analytics Project
+
+## 🚀 Overview
+
+This repository contains an **end-to-end data analytics project** developed on **Databricks** as part of a simulated client use case during my internship. The project showcases key aspects of modern data engineering and machine learning workflows, including data ingestion, transformation, modeling, and dashboard reporting.
 
 
-Project Workflow
-	•	Data Ingestion: Raw transactional and customer data loaded from external CSV sources into Databricks File System (DBFS).
-	•	Data Engineering: Cleaning, transforming, and structuring data using PySpark and SQL for downstream analytics.
-	•	Delta Lake Integration: Employed Delta Lake for versioned, scalable storage and time travel capabilities.
-	•	Feature Engineering: Derived features such as customer segmentation and RFM scoring for advanced insights.
-	•	Exploratory Data Analysis: Performed using Spark SQL and visualized directly in Databricks notebooks.
-	•	Modeling: Trained and tracked ML models using MLflow for churn prediction and customer segmentation.
-	•	Reporting: Connected Power BI with Databricks SQL to create interactive dashboards.
-	•	CI/CD Friendly: Modular notebook structure supports reproducibility and scalability.
+---
 
-Tech Stack
-	•	Databricks (Community Edition)
-	•	PySpark & Spark SQL
-	•	Delta Lake
-	•	MLflow
-	•	Power BI (external integration)
-	•	Git for version control
+## 📌 Key Features
+
+- **Data Ingestion & Transformation**: Loaded CSV datasets into DBFS and cleaned using PySpark; structured into curated tables via Spark SQL.
+- **Delta Lake Integration**: Leveraged Delta Lake for scalable, version-controlled data storage with time-travel capabilities.
+- **ML Model Development**: Built and tracked a churn prediction model using **MLflow**, including feature engineering and model evaluation.
+- **Power BI Reporting**: Connected Databricks SQL to Power BI for visualizing customer behavior and churn insights in a dynamic dashboard.
+
+---
+
+## 🛠 Tech Stack
+
+- Databricks Community Edition  
+- PySpark, Spark SQL  
+- Delta Lake  
+- MLflow  
+- Power BI  
+- Git for version control
+
+---
+
+## 📂 Structure
+
+- `notebooks/`: Modular notebooks for ingestion, transformation, modeling, and visualization
+- `data/`: Synthetic CSV datasets used for simulation
+- `reports/`: Sample Power BI dashboard screenshots
+
+---
+
